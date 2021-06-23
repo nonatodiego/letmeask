@@ -11,7 +11,7 @@ import { useAuth } from '../hooks/useAuth'
 
 
 export function Home(){
-  const history = useHistory();
+  const history = useHistory()
 
   const {user, signInWithGoogle} = useAuth()
 
