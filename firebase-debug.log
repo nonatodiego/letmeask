@@ -1,0 +1,26 @@
+[debug] [2021-06-25T17:14:11.511Z] ----------------------------------------------------------------------
+[debug] [2021-06-25T17:14:11.513Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm-cache\_npx\19616\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-06-25T17:14:11.513Z] CLI Version:   9.14.0
+[debug] [2021-06-25T17:14:11.513Z] Platform:      win32
+[debug] [2021-06-25T17:14:11.513Z] Node Version:  v14.16.0
+[debug] [2021-06-25T17:14:11.514Z] Time:          Fri Jun 25 2021 14:14:11 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2021-06-25T17:14:11.514Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as nonatodiego2014@gmail.com
+[debug] [2021-06-25T17:14:16.215Z] Error: EPERM: operation not permitted, unlink 'C:\Users\User\AppData\Roaming\npm-cache\_npx\19616\node_modules\firebase-tools\node_modules\re2\build\Release\re2.node'
+    at Object.unlinkSync (fs.js:1210:3)
+    at fixWinEPERMSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:219:13)
+    at rimrafSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:319:28)
+    at C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:350:5
+    at Array.forEach (<anonymous>)
+    at rmkidsSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:349:26)
+    at rmdirSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:342:7)
+    at fixWinEPERMSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:217:5)
+    at rimrafSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:319:28)
+    at C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:350:5
+    at Array.forEach (<anonymous>)
+    at rmkidsSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:349:26)
+    at rmdirSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:342:7)
+    at fixWinEPERMSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:217:5)
+    at rimrafSync (C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:319:28)
+    at C:\Program Files\nodejs\node_modules\npm\node_modules\rimraf\rimraf.js:350:5
